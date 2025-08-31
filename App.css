@@ -1,0 +1,18 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #222;
+}
+.header { margin-bottom: 12px; }
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  padding: 18px;
+  border-radius: 8px;
+  background: #fff;
+}
+@media (max-width: 600px) {
+  .main { padding: 12px; }
+  h1 { font-size: 20px; }
+}
